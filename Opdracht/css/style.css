@@ -1,0 +1,83 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	font-family: 'Archivo', sans-serif;
+	border-radius: none;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container>img {
+	margin: 50px 10px 50px 10px;
+}
+
+#logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#menu {
+	background-color: #222931;
+	width: 950px;
+	position: absolute;
+	color: white;
+	font-size: 12px; 
+}
+
+#menu>ul>li {
+	display: inline-block;
+	margin: 5px;
+	padding: 0px 5px;
+}
+
+#yellowBar {
+	width: 100vw;
+	padding: 10px 0px;
+	margin-bottom: 50px;
+	background-color: #ffe718;
+}
+
+#yellowBar>.container>h2 {
+	display: inline-block;
+	width: 280px;
+}
+
+#yellowBar>.container>p {
+	display: inline-block;
+	width: 550px;
+}
+
+#yellowBar>.container>button {
+	padding: 15px;
+	color: black;
+	background-color: #ffffff;
+}
+
+#yellowBar>.container>button:hover {
+	background-color: black;
+	color: white;
+	transition: ease-in-out 0.3s;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+img[src="../img/header.jpg"] {
+	z-index: -1;
+	position: relative;
+	width: 100vw;
+	margin-top: 24px;
+}
+
+img[src="../img/footer.jpg"] {
+	width: 100vw;
+	position: absolute;
+}

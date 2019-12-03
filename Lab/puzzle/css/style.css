@@ -1,0 +1,55 @@
+body{
+	background-color: #f2f2ff;
+}
+
+#puzzle{
+	width: 600px;
+	height: 400px;
+	margin: 40px;
+	border: 4px solid black;
+
+}
+
+.topleft {
+	position: absolute;
+	left: 10;
+	top: 10;
+}
+
+img[src="img/img-2.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-3.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-4.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-5.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-6.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-7.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-8.png"]{
+	position: absolute;
+	top: 20;
+}
+img[src="img/img-9.png"]{
+	position: absolute;
+	top: 20;
+}
+.topright {
+	position: absolute;
+	left: 150;
+	top: 20;
+}
