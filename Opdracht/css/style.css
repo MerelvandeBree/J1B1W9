@@ -81,3 +81,61 @@ img[src="../img/footer.jpg"] {
 	width: 100vw;
 	position: absolute;
 }
+
+.footer-banner-buttons button{
+    font-family: 'Archivo', sans-serif;
+    background: #ffe718;
+    width: 290px;
+    height: 100px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.footer-banner-buttons {
+    position: relative;
+    margin-top: 228px;
+}
+
+.footer-banner-buttons button {
+    transition: ease-in-out .3s;
+}
+
+.footer-banner-buttons i {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.footer-banner-buttons h3 {
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 60px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.footer-banner-buttons h6 {
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.footer-banner-buttons ul li{
+    display: inline-block; 
+}
+
+.footer-banner-buttons ul{
+    margin-top: 70px;
+}
+
+.container button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
