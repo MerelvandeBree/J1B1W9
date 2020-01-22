@@ -139,3 +139,41 @@ img[src="../img/footer.jpg"] {
     color: #ffffff;
 }
 
+span {
+    color: #ffe718;
+}
+
+.dropdownDiensten{
+    display:none;
+    margin: 0;
+}
+
+.nieuwbouw:hover .dropdownDiensten {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: grey;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 670px;
+}
+
+.advies:hover .dropdownDiensten {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: grey;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 355px;
+}
+
+.regelgeving:hover .dropdownDiensten {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: grey;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 25px;
+}

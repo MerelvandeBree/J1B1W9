@@ -1,0 +1,371 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: none;
+	font-family: 'Archivo', sans-serif;
+}
+
+.headerButtons{
+    background: #222931;
+    width: 950px;
+    height: 30px;
+    position: absolute;
+    margin-left: 1%;
+    padding-left: 25px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.button:hover{
+    background: #ffe718;
+    color: #222931;
+}
+
+.button{
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    height: 47.5px;
+    width: 100px;
+    padding: 14px 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.dropdown{
+    display:none;
+    margin: 0;
+}
+
+.dropdownButton:hover .dropdown {
+    display: block;
+    position: absolute;
+}
+
+.buttonDropdown1, .buttonDropdown2, .buttonDropdown3{
+    display: block;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    background: #222931;
+}
+
+.buttonDropdown1{
+    padding-right: 36px;
+    margin-top: 10px;
+}
+
+.buttonDropdown2{
+    padding-right: 97px;
+}
+
+.buttonDropdown3{
+    padding-right: 72px;
+}
+
+.buttonDropdown1:hover, .buttonDropdown2:hover, .buttonDropdown3:hover{
+    color: #222931;
+    background: #ffe718;
+}
+
+li{
+    list-style: none;
+    width: 311px;
+}
+
+.header-img {
+	margin-top: 25px;
+	width: 100vw;
+}
+
+.logo {
+	margin-bottom: 20px;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.banner-text h1 {
+	display: inline-block;
+}
+
+.banner-text p {
+	display: inline-block;
+	margin-left: 3%;
+}
+
+.banner-text {
+	width: 100vw;
+}
+
+.banner-text {
+	background-color: #ffe718;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.banner-text button {
+	font-family: 'Archivo', sans-serif;
+	width: 250px;
+	height: 35px;
+	border: none;
+	background: white;
+	margin-left: 200px;
+}
+
+.container button:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
+.footer-banner-buttons button{
+    font-family: 'Archivo', sans-serif;
+    background: #ffe718;
+    width: 290px;
+    height: 100px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.footer-banner-buttons {
+    position: relative;
+    margin-top: 228px;
+}
+
+.footer-banner-buttons button {
+    transition: ease-in-out .3s;
+}
+
+.footer-banner-buttons i {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.footer-banner-buttons h3 {
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 60px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.footer-banner-buttons h6 {
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.footer-banner-buttons ul li{
+    display: inline-block; 
+}
+
+.footer-banner-buttons ul{
+    margin-top: 70px;
+}
+
+
+.container button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+.footer-banner-img {
+	position: absolute;
+	margin-top: 40px;
+	width: 100vw;	
+}
+.line{
+    border: 1px solid rgba(211, 211, 211, 0.9);
+    margin-left: 475px;
+    margin-right: 475px;
+}
+
+.footerTextText{
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerTitleOverOns{
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.footerTitleContact{
+    font-weight: 600;
+    font-size: 34px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.overOns{
+    float: left;
+    margin-left: 310px;
+    max-width: 400px;
+}
+
+.contact{
+    float: right;
+    margin-right: 250px;
+}
+
+.item1Img, .item2Img, .item3Img{
+    position: relative;
+    padding-top: 10px;
+    color: #aeb6be;
+    padding-right: 10px;
+}
+
+.item1Text, .item2Text, .item3Text{
+    color: #5f656d;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.item1, .item2, .item3{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.item2Text{
+    padding-top: 12.5px;
+}
+
+.item3Text{
+    padding-top: 12.5px;
+}
+
+.footerText{
+    margin-top: 30px;
+}
+
+.footerFooter{
+    background: #222931;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+.footerFooterText{
+    color: white;
+    font-weight: bold;
+    margin-right: 255px;
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}	
+#meerWetenBTN {
+	margin-bottom: 24.5px;
+	transition: ease-in-out .3;
+}
+
+.images img{
+	margin: 40px 10px;
+}
+
+.images {
+	margin: 50px 10px;
+}
+
+.images img:hover {
+	opacity: 0.4;
+}
+
+.bannerImg1{
+    background: url("img/banner-1.jpg") no-repeat;
+}
+
+.bannerImg2{
+    background: url("img/banner-2.jpg") no-repeat;
+    margin: 0 10px;
+    margin-left: 50px;
+}
+
+.bannerImg3{
+    background: url("img/banner-3.jpg") no-repeat;
+}
+
+.bannerImg1, .bannerImg2, .bannerImg3{
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+}
+
+.bannerImg1:hover .bannerText1{
+    opacity: 1;
+}
+
+.bannerImg2:hover .bannerText2{
+    opacity: 1;
+}   
+
+.bannerImg3:hover .bannerText3{
+    opacity: 1;
+}
+
+.bannerText1, .bannerText2, .bannerText3{
+    text-align:center;
+    opacity: 0;
+    padding: 100px 25px;
+    color: white;
+    font-weight: bold;
+    background: rgba(34,41,49,0.8);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+span {
+    color: #ffe718;
+}
+
+.dropdownDiensten{
+    display:none;
+    margin: 0;
+}
+
+.nieuwbouw:hover .dropdownDiensten {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: grey;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 670px;
+}
+
+.advies:hover .dropdownDiensten {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: grey;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 355px;
+}
+
+.regelgeving:hover .dropdownDiensten {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: grey;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 25px;
+}
